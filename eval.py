@@ -5,7 +5,7 @@ from langchain.chat_models import init_chat_model
 from langchain.prompts import ChatPromptTemplate
 from langchain.schema.output_parser import StrOutputParser
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "YOUR_API_KEY"
 
 class RAGEvaluator:
     def __init__(self, model_name: str = "deepseek-ai/deepseek-v2-chat"):
